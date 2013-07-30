@@ -16,9 +16,9 @@ CTRL_REG4      CON      $23
 STATUS_REG     CON      $27
 OUT_X_INC      CON      $A8
 
-X              VAR      Word
-Y              VAR      Word
-Z              VAR      Word
+X              VAR      Word   'yaw
+Y              VAR      Word   'pitch
+Z              VAR      Word   'roll
 rawl           VAR      Word
 rawh           VAR      Word
 
