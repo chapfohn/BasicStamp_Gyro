@@ -68,10 +68,7 @@ DO
     Z = Z / 114
   ENDIF
 
-  DEBUG HOME, "RAW X = ",11, SDEC X, CR   ' Display data
-  DEBUG "RAW Y = ",11, SDEC Y, CR
-  DEBUG "RAW Z = ",11, SDEC Z, CR
-
+  DEBUG "RAW X = ",11, SDEC X, TAB, "RAW Y = ",11, SDEC Y, TAB, "RAW Z = ",11, SDEC Z, CR
   PAUSE 250
 
 LOOP
